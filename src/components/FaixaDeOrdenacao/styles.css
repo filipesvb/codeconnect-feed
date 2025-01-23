@@ -1,0 +1,23 @@
+.container__faixa {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+}
+
+.container__faixa ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5em;
+}
+
+.container__faixa__item {
+  font-size: 22px;
+  color: var(--cinza-medio);
+  text-decoration: none;
+}
+
+.container__faixa__item--ativo {
+  color: var(--verde-destaque);
+  text-decoration: underline var(--verde-destaque) 1px;
+  text-underline-offset: 0.25em;
+}
